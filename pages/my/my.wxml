@@ -1,0 +1,80 @@
+<view class="">
+  <view class="page__bd page__bd_spacing ">
+      <view class="weui-flex"> 
+              <view class="weui-flex__item order">
+                <view class="placeholder">
+                  <view class=" left-text1">
+                    <image src="{{avatarUrl}}" class="avatarUrl"></image>
+                    <!-- <view class=" left-text2">用户登录</view> -->
+                     <view class=" left-text2">{{username}}</view>
+                    </view> 
+                </view>
+              </view>
+              <view class="weui-flex__item order">
+                <view class="placeholder">
+                  <image src="/images/right.png" class="order_icon" bindtap="next"></image>
+                </view>
+              </view>
+      </view>
+       <view class="weui-flex" style="margin-top:30rpx"> 
+              <view class="weui-flex__item order1">
+                <view class="placeholder">
+                  <view class=" left-text1">
+                    <image src="/images/coffee2.png" class="avatarUrl2"></image>
+                    <view class=" left-text22">咖啡钱包</view>
+                    </view> 
+                </view>
+              </view>
+              <view class="weui-flex__item order">
+                <view class="placeholder">
+                  <image src="/images/right2.png" class="order_icon2" bindtap="next"></image>
+                </view>
+              </view>
+      </view>
+       <view class="weui-flex"> 
+              <view class="weui-flex__item order1">
+                <view class="placeholder">
+                  <view class=" left-text1">
+                    <image src="/images/coffee2.png" class="avatarUrl2"></image>
+                    <view class=" left-text22">优惠券</view>
+                    </view> 
+                </view>
+              </view>
+              <view class="weui-flex__item order">
+                <view class="placeholder">
+                  <image src="/images/right2.png" class="order_icon2" bindtap="next"></image>
+                </view>
+              </view>
+      </view>
+       <view class="weui-flex"> 
+              <view class="weui-flex__item order1">
+                <view class="placeholder">
+                  <view class=" left-text1">
+                    <image src="/images/coffee2.png" class="avatarUrl2"></image>
+                    <view class=" left-text22">发票管理</view>
+                    </view> 
+                </view>
+              </view>
+              <view class="weui-flex__item order">
+                <view class="placeholder">
+                  <image src="/images/right2.png" class="order_icon2" bindtap="next"></image>
+                </view>
+              </view>
+      </view>
+       <view class="weui-flex"> 
+              <view class="weui-flex__item order1">
+                <view class="placeholder">
+                  <view class=" left-text1">
+                    <image src="/images/coffee2.png" class="avatarUrl2"></image>
+                    <view class=" left-text22">客户服务</view>
+                    </view> 
+                </view>
+              </view>
+              <view class="weui-flex__item order">
+                <view class="placeholder">
+                  <image src="/images/right2.png" class="order_icon2" bindtap="next"></image>
+                </view>
+              </view>
+      </view>
+    </view>
+  </view>

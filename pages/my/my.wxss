@@ -1,0 +1,46 @@
+.order_icon{
+  width:30rpx;
+  height:30rpx;
+  float:right;
+  padding-top:20rpx;
+}
+.order_icon2{
+  width:50rpx;
+  height:50rpx;
+  float:right;
+}
+.order{
+  /* border: 1px solid black; */
+  padding: 30rpx 0px
+}
+.order1{
+  /* border: 1px solid black; */
+  /* padding: 10rpx 0px */
+}
+.left-text2{
+   float:left;
+   font-size: 28rpx;
+   color: #333;
+   padding-top:20rpx;
+}
+.left-text22{
+   float:left;
+   font-size: 28rpx;
+   color: #333;
+   padding-top:40rpx;
+}
+.avatarUrl{
+  width:80rpx;
+  height:80rpx;
+  float:left;
+  border: 1px solid #eee;
+  border-radius: 50px;
+  margin-right:5px;
+}
+.avatarUrl2{
+  width:30rpx;
+  height:30rpx;
+  float:left;
+  margin-right:20rpx;
+  padding-top:40rpx;
+}

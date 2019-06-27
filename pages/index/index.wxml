@@ -1,0 +1,77 @@
+<!--index.wxml-->
+<view wx:if="{{isHide}}">
+  <view wx:if="{{canIUse}}" >
+        <view class='header'>
+            <image src='/images/wx_login.png'></image>
+        </view>
+ 
+        <view class='content'>
+            <view>申请获取以下权限</view>
+            <text>获得你的公开信息(昵称，头像等)</text>
+        </view>
+ 
+        <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+            授权登录
+        </button>
+    </view>
+    <view wx:else>请升级微信版本</view>
+</view>
+
+
+<view class="container" wx:else>
+<swiper class="lunbo" indicator-dots="true" autoplay="true" interval="3000" duration="1000" style="height: {{clientHeight?clientHeight+'px':'auto'}}">
+    <swiper-item>
+      <image src="/images/lunbo1.jpg" class="slide-image"/>
+    </swiper-item>
+     <swiper-item>
+      <image src="/images/lunbo2.jpg" class="slide-image"/>
+    </swiper-item>
+     <swiper-item>
+      <image src="/images/lunbo3.jpg" class="slide-image"/>
+    </swiper-item>
+</swiper>
+ <view class="page__bd page__bd_spacing ">
+    <view class="weui-flex"> 
+            <view class="weui-flex__item order">
+              <view class="placeholder">
+                <view class=" left-text1">现在下单</view> <view class=" left-text2">ORDER NOW</view>
+              </view>
+            </view>
+            <view class="weui-flex__item order">
+               <view class="placeholder">
+                 <image src="/images/coffee.png" class="order_icon"></image>
+               </view>
+            </view>
+    </view>
+     <view class="diver"></view>
+    <view class="weui-flex"> 
+            <view class="weui-flex__item order">
+              <view class="placeholder">
+                <view class=" left-text1">咖啡钱包 <view class="weui-badge" style="margin-left: 5px;">买二赠一</view></view> <view class=" left-text2">COFFEE WALLET</view>
+              </view>
+            </view>
+            <view class="weui-flex__item order">
+               <view class="placeholder">
+                 <image src="/images/wallet.png" class="order_icon"></image>
+               </view>
+            </view>
+    </view>
+     <view class="diver"></view>
+         <view class="weui-flex"> 
+            <view class="weui-flex__item order">
+              <view class="placeholder">
+                <view class=" left-text1">送他咖啡</view> <view class=" left-text2">SEND COFFEE</view>
+              </view>
+            </view>
+            <view class="weui-flex__item order">
+               <view class="placeholder">
+                 <image src="/images/gift.png" class="order_icon"></image>
+               </view>
+            </view>
+    </view>
+     <view class="diver"></view>
+      <view class="weui-flex">
+        <image src=""></image>  
+     </view>
+ </view>
+</view>
