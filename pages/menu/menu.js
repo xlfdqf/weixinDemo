@@ -20,5 +20,14 @@ Page({
       sliderOffset: e.currentTarget.offsetLeft,
       activeIndex: e.currentTarget.id
     });
+  },
+  /**
+* 用户点击右上角分享
+*/
+  onShareAppMessage() {
+    return {
+      title: '菜单页面'//分享内容
+      // path: '/pages/my/my'//分享地址
+    }
   }
 })

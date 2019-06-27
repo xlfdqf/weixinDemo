@@ -50,7 +50,8 @@ Page({
           // 用户没有授权，改变 isHide 的值，显示授权页面
           that.setData({
             isHide:true
-          })
+          });
+          // app.globalData.userInfo = ''; //若未授权进入个人中心将用户信息赋值给全局对象globalData中
         }
       }
     }),
@@ -91,7 +92,14 @@ Page({
         }
       });
     }
+  },
+  /**
+* 用户点击右上角分享
+*/
+  onShareAppMessage() {
+    return {
+      title: '首页'//分享内容
+      // path: '/pages/my/my'//分享地址
+    }
   }
-
-
 })

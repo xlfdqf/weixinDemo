@@ -31,6 +31,10 @@ App({
     //     }
     //   }
     // })
+
+    wx.showShareMenu({
+      
+    })
   },
   onShow: function (options) {
     //  console.log('onShow', options)
@@ -44,4 +48,5 @@ App({
   globalData: { //全局共享数据
     userInfo: ''
   },
+
 })
